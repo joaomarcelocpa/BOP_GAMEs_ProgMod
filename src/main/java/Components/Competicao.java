@@ -7,7 +7,7 @@ public class Competicao {
         this.numeroDeEtapas = numeroDeEtapas;
     }
 
-    public Ciclista quemTerminouNaFrenteEntreCiclistaEOutroCiclista(Ciclista ciclista, Ciclista outroCiclista) {
+    public Ciclista quemTerminouNaFrenteEntreDoisCiclistas(Ciclista ciclista, Ciclista outroCiclista) {
         if (ciclista.compararCiclistas(outroCiclista) < 0) {
             return ciclista;
         } else {
